@@ -1,0 +1,2 @@
+nohup bowtie2 --end-to-end --very-sensitive --no-mixed --no-discordant --phred33 -I 10 -X 700 -p 16 -x /mnt/data/home/lfy/index/bowtie/cow_new_t2t.fa -1 SRR28462358_1_clean.fq -2 SRR28462358_2_clean.fq -S SRR28462358.sam & >SRR28462358.align.log
+nohup bowtie2 --end-to-end --very-sensitive --no-mixed --no-discordant --phred33 -I 10 -X 700 -p 16 -x /mnt/data/home/lfy/index/bowtie/cow_new_t2t.fa -1 SRR28462359_1_clean.fq -2 SRR28462359_2_clean.fq -S SRR28462359.sam & >SRR28462359.align.log
